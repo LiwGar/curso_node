@@ -1,0 +1,4 @@
+Este es un archivo
+con varias lineas,
+como ejemplo para leerlo
+desde una funcion.
