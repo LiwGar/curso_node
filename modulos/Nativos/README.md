@@ -25,3 +25,14 @@
     ```addon.hola()```
 
     debería imprimir `mundo`
+
+
+<!-- Para solucionar el error al ejecutar el comando node-gyp build:
+
+
+‘class v8::Local<v8::String>’ has no member named ‘ToLocalChecked’
+Solamente basta con borrar:
+
+
+isolate, "mundo").ToLocalChecked());
+                 ^~~~~~~~~~~~~~~~~ -->
